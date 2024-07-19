@@ -22,9 +22,9 @@ public class MultiPanelSlideTransition : MonoBehaviour
     void Update()
     {
         // Trigger the transition with the spacebar
-        if (Input.GetKeyDown(KeyCode.Space) && !isTransitioning)
+        if (Input.GetKeyDown(KeyCode.Space) && !isTransitioning && currentPanelIndex < panels.Count - 1)
         {
-            int nextPanelIndex = (currentPanelIndex + 1) % panels.Count;
+            int nextPanelIndex = currentPanelIndex + 1;
             StartCoroutine(Slide(currentPanelIndex, nextPanelIndex));
         }
     }
