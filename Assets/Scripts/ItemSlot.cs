@@ -5,6 +5,8 @@ using UnityEngine.EventSystems;
 
 public class ItemSlot : MonoBehaviour, IDropHandler {
 
+    [SerializeField] private GameObject image;
+
     public void OnDrop(PointerEventData eventData) {
         Debug.Log("OnDrop");
         Debug.Log(eventData.pointerDrag);
@@ -24,7 +26,7 @@ public class ItemSlot : MonoBehaviour, IDropHandler {
             {
                 eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
                 eventData.pointerDrag.GetComponent<DragDrop>().enabled = false;
-        }
-
+            }
+           
     }
 }
