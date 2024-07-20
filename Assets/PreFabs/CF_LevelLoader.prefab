@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7299062619663073367}
   - component: {fileID: 1750030246834346281}
   m_Layer: 0
-  m_Name: LevelLoader_CF
+  m_Name: CF_LevelLoader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66,7 +66,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2772131699691735968
 RectTransform:
   m_ObjectHideFlags: 0
@@ -108,7 +108,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!114 &5036973443403406207
 MonoBehaviour:

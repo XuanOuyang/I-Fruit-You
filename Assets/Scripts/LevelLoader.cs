@@ -1,4 +1,3 @@
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,7 +10,8 @@ public class LevelLoader : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        // Check if the "Z" key is pressed
+        if (Input.GetKeyDown(KeyCode.Z))
         {
             LoadNextLevel();
         }
