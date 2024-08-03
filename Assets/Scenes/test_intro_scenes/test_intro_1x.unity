@@ -181,7 +181,7 @@ SpriteRenderer:
   m_SortingLayerID: 2020138345
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 48464588ef6214e47a4448c0a69a7b40, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ca496cbe7f68d2d4b93a1b89ae77ea82, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -210,7 +210,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.93, y: 0.93, z: 0.95}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -317,67 +317,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1001 &987808662
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1750030246834346281, guid: 8ee4a380bc6e0454985d40a9151fc03f, type: 3}
-      propertyPath: transitionTime
-      value: 10000
-      objectReference: {fileID: 0}
-    - target: {fileID: 7299062619663073367, guid: 8ee4a380bc6e0454985d40a9151fc03f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7299062619663073367, guid: 8ee4a380bc6e0454985d40a9151fc03f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7299062619663073367, guid: 8ee4a380bc6e0454985d40a9151fc03f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7299062619663073367, guid: 8ee4a380bc6e0454985d40a9151fc03f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7299062619663073367, guid: 8ee4a380bc6e0454985d40a9151fc03f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7299062619663073367, guid: 8ee4a380bc6e0454985d40a9151fc03f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7299062619663073367, guid: 8ee4a380bc6e0454985d40a9151fc03f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7299062619663073367, guid: 8ee4a380bc6e0454985d40a9151fc03f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7299062619663073367, guid: 8ee4a380bc6e0454985d40a9151fc03f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7299062619663073367, guid: 8ee4a380bc6e0454985d40a9151fc03f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7739334962299349140, guid: 8ee4a380bc6e0454985d40a9151fc03f, type: 3}
-      propertyPath: m_Name
-      value: CF_LevelLoader
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8ee4a380bc6e0454985d40a9151fc03f, type: 3}
 --- !u!1 &1252144985
 GameObject:
   m_ObjectHideFlags: 0
@@ -603,7 +542,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.65882355, g: 0.65882355, b: 0.65882355, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -672,11 +611,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprites:
-  - {fileID: 21300000, guid: 48464588ef6214e47a4448c0a69a7b40, type: 3}
-  - {fileID: 21300000, guid: a178882e758ce274aab3bbc585504c31, type: 3}
-  - {fileID: 21300000, guid: a4260e7ec9254ef4089f6c6efd7227a7, type: 3}
+  - {fileID: 21300000, guid: ca496cbe7f68d2d4b93a1b89ae77ea82, type: 3}
+  - {fileID: 21300000, guid: e582d64310b0bdd43a0e38ee189a7ebc, type: 3}
   myButton: {fileID: 1252144987}
-  nextScene: test_intro_3
+  nextScene: test_intro_2
   obj: {fileID: 579973826}
   currentImageIndex: 0
 --- !u!1660057539 &9223372036854775807
@@ -687,4 +625,3 @@ SceneRoots:
   - {fileID: 579973829}
   - {fileID: 1508859928}
   - {fileID: 729804681}
-  - {fileID: 987808662}

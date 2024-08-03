@@ -180,7 +180,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 505d9f46376d3ad4fb96c0189a9765e1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bbcd91b3a8baf0747ab3afd956946bf3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -602,13 +602,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprites:
-  - {fileID: 21300000, guid: 505d9f46376d3ad4fb96c0189a9765e1, type: 3}
-  - {fileID: 21300000, guid: 841f1247fe857a9439687addcaa63f99, type: 3}
-  - {fileID: 21300000, guid: 77bc582ff0960a348ada56f41f355197, type: 3}
-  - {fileID: 21300000, guid: 99abcc90a64bdb64d8e498d49e8b64ba, type: 3}
-  - {fileID: 21300000, guid: 6f6119de9eb345d4bbfdfac64aff9dd3, type: 3}
+  - {fileID: 21300000, guid: bbcd91b3a8baf0747ab3afd956946bf3, type: 3}
+  - {fileID: 21300000, guid: cdc81065776973b43b0ca77aac14b611, type: 3}
+  - {fileID: 21300000, guid: 29f923a870aca4d4698deb8edc4ca854, type: 3}
   myButton: {fileID: 1182394556}
-  nextScene: test_intro_7
+  nextScene: test_intro_5
   obj: {fileID: 290676242}
   currentImageIndex: 0
 --- !u!1660057539 &9223372036854775807

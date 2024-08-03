@@ -159,7 +159,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BackGroundColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -232,9 +232,9 @@ MonoBehaviour:
   - {fileID: 1148398745}
   - {fileID: 219694243}
   - {fileID: 917064389}
-  nextScene: test_intro_2
-  immediateTransition: 0
-  transitionDuration: 0.5
+  nextScene: test_intro_1x
+  immediateTransition: 1
+  transitionDuration: 1
 --- !u!1 &219694243
 GameObject:
   m_ObjectHideFlags: 0
@@ -526,7 +526,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ddcc0f3f3a4e0da488b01b20218b6607, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ca496cbe7f68d2d4b93a1b89ae77ea82, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
