@@ -18,21 +18,24 @@ EditorBuildSettings:
     path: Assets/Scenes/alpha_4.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/test_intro_1.unity
+    path: Assets/Scenes/test_intro_scenes/test_intro_1.unity
     guid: df9d6a8d30877c742829701cf1cb04a6
   - enabled: 1
-    path: Assets/Scenes/test_intro_2.unity
+    path: Assets/Scenes/test_intro_scenes/test_intro_2.unity
     guid: 761c7150502679b41940703a1b7f9e71
   - enabled: 1
-    path: Assets/Scenes/test_intro_3.unity
+    path: Assets/Scenes/test_intro_scenes/test_intro_3.unity
     guid: 3009345156c57d04abf84ed55dd34302
   - enabled: 1
-    path: Assets/Scenes/test_intro_4.unity
+    path: Assets/Scenes/test_intro_scenes/test_intro_4.unity
     guid: a67a0553d0f6e6c46ac45e7502589863
   - enabled: 0
-    path: Assets/Scenes/test_intro_4.unity
+    path: Assets/Scenes/test_intro_scenes/test_intro_4.unity
     guid: a67a0553d0f6e6c46ac45e7502589863
   - enabled: 1
-    path: Assets/Scenes/test_intro_5.unity
+    path: Assets/Scenes/test_intro_scenes/test_intro_5.unity
     guid: e5fb6e0d746578f45a11f280f680178a
+  - enabled: 1
+    path: Assets/Scenes/test_intro_6.unity
+    guid: dcc0733dcfee35a45a5753ec32e6f098
   m_configObjects: {}
