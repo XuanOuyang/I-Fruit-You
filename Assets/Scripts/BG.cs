@@ -6,7 +6,7 @@ public class BG : MonoBehaviour
 {
 
     private float CurrentTime;
-    public float speed = 0.5f;
+    public float speed = 0.2f;
 
     public RectTransform rectTransform;
 
@@ -23,12 +23,8 @@ public class BG : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.Space))
-        {
-            CurrentTime = CurrentTime + Time.deltaTime;
+        CurrentTime = CurrentTime + Time.deltaTime;
 
-            rectTransform.localPosition = Vector3.Lerp(startpos, endpos, CurrentTime*speed);
-            Debug.Log(CurrentTime);
-        }
+        rectTransform.localPosition = Vector3.Lerp(startpos, endpos, CurrentTime * speed);
     }
 }
