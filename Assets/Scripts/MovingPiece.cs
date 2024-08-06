@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MovingPiece : MonoBehaviour
 {
-    private bool isMoving = false;
+    //private bool isMoving = false;
 
     // Start is called before the first frame update
     void Start()
@@ -15,14 +15,16 @@ public class MovingPiece : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isMoving)
+        /*if (isMoving)
         {
             Vector2 mousePosition = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
             Vector2 objPosition = Camera.main.ScreenToWorldPoint(mousePosition);
             transform.position = objPosition;
         }
+        */
     }
 
+/*
     void OnMouseDown()
     {
         isMoving = true;
@@ -40,4 +42,5 @@ public class MovingPiece : MonoBehaviour
             isMoving = false;
         }
     }
+*/
 }
