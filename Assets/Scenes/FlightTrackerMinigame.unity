@@ -364,6 +364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 760667183}
+  nextScene: test_intro_1
   parentAfterDrag: {fileID: 0}
 --- !u!114 &760667183 stripped
 MonoBehaviour:
@@ -496,7 +497,12 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8033484267903868596, guid: b82ed2776d224df4585b753bb4f74673, type: 3}
+      propertyPath: nextScene
+      value: test_intro_1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4760385958151162866, guid: b82ed2776d224df4585b753bb4f74673, type: 3}
     m_RemovedGameObjects:
     - {fileID: 2895723108082878362, guid: b82ed2776d224df4585b753bb4f74673, type: 3}
     m_AddedGameObjects: []
@@ -788,7 +794,12 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8033484267903868596, guid: b82ed2776d224df4585b753bb4f74673, type: 3}
+      propertyPath: nextScene
+      value: test_intro_1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4760385958151162866, guid: b82ed2776d224df4585b753bb4f74673, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:

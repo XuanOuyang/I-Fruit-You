@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public string nextScene;
+
     [Header("Game Elements")]
     [Range(2, 6)]
     [SerializeField] private int difficulty = 4;
@@ -233,6 +236,11 @@ public class GameManager : MonoBehaviour
                 playAgainButton.SetActive(true);
             }
         }
+    }
+
+    public void NextScene()
+    {
+        SceneManager.LoadScene(nextScene);
     }
 
     public void RestartGame()
