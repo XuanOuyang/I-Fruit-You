@@ -40,6 +40,7 @@ public class PointAndClick : MonoBehaviour
         }
         else
         {
+            Debug.Log("click!");
             currentImageIndex++;
            
             // Update the sprite of the GameObject
