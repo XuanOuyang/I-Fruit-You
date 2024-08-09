@@ -616,7 +616,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: cc0812c646505e34d831a936bf09e231, type: 3}
   - {fileID: 21300000, guid: 9479b69c31c826742b17911a5961a156, type: 3}
   myButton: {fileID: 1252144987}
-  nextScene: 
+  nextScene: mem1_mid3
   obj: {fileID: 579973826}
   currentImageIndex: 0
 --- !u!114 &1973789257
