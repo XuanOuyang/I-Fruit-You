@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class movepiece : MonoBehaviour
 {
-    public string pieceStatus = "";
+    public bool lockedStatus = false;
     private bool isMoving = false;
 
     // Start is called before the first frame update
@@ -15,7 +15,7 @@ public class movepiece : MonoBehaviour
 
     // Update is called once per frame
     void Update() {
-        if (pieceStatus != "locked" && isMoving)
+        if (!lockedStatus && isMoving)
         {
             Vector2 mousePoition = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
             Vector2 objPoition = Camera.main.ScreenToWorldPoint(mousePoition);
@@ -27,8 +27,7 @@ public class movepiece : MonoBehaviour
         if (other.gameObject.name == gameObject.name)
         {
             transform.position = other.gameObject.transform.position;
-            pieceStatus = "locked";
-            //update locked??
+            lockedStatus = true;
         }
     }
     void OnMouseDown()
