@@ -15,21 +15,29 @@ public class PointAndClick : MonoBehaviour
     private SpriteRenderer currSprite; // Current sprite
 
     [SerializeField]
-
     private int currentImageIndex = 0;
     private int totalImageIndex;
 
     void Start()
     {
         Button btn = myButton.GetComponent<Button>();
-        totalImageIndex = sprites.Count-1;
+        totalImageIndex = sprites.Count - 1;
 
         // Initialize the SpriteRenderer component from the GameObject
         currSprite = obj.GetComponent<SpriteRenderer>();
         currentImageIndex = 0;
 
-        // Button listens to call NextImage when 
+        // Button listens to call NextImage when clicked
         btn.onClick.AddListener(NextImage);
+    }
+
+    void Update()
+    {
+        // Check for Xbox controller "Y" button press
+        if (Input.GetButtonDown("Fire2"))
+        {
+            NextImage();
+        }
     }
 
     void NextImage()
@@ -42,7 +50,7 @@ public class PointAndClick : MonoBehaviour
         {
             Debug.Log("click!");
             currentImageIndex++;
-           
+
             // Update the sprite of the GameObject
             currSprite.sprite = sprites[currentImageIndex];
         }
