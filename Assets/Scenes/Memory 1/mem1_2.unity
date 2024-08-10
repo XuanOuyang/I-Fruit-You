@@ -513,7 +513,7 @@ MonoBehaviour:
   allPuzzlePieces:
   - {fileID: 952634692}
   - {fileID: 1129690498}
-  nextScene: mem1_testpuzzle2
+  nextScene: mem1_3
 --- !u!1 &952634692
 GameObject:
   m_ObjectHideFlags: 0

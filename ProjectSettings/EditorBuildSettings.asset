@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/alpha_3.unity
     guid: e3f991d240af58c449ae384872a6e7ed
   - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 1df8e1f8b6436e74e845c9f7cb1bc0bc
+  - enabled: 1
     path: Assets/Settings/Scenes/URP2DSceneTemplate.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -72,9 +75,33 @@ EditorBuildSettings:
     path: Assets/Scenes/Memory 1/ScenesICanMake/mem1_mid9_flight.unity
     guid: 28e9354cdd82c93429246c55b445b621
   - enabled: 1
-    path: Assets/Scenes/Memory 1/TestingPuzzle/mem1_testpuzzle2.unity
+    path: Assets/Scenes/Memory 1/mem1_3.unity
     guid: 83fba5935febdd8428570e6376f419d9
   - enabled: 1
     path: Assets/Scenes/Fruit Plate/fruit_select.unity
     guid: 15557c7349479e44aa5731500a6d039b
+  - enabled: 1
+    path: Assets/Scenes/Memory 1/mem1_2.unity
+    guid: 5542fc2496cac7b42b7812a9b0ddd1a5
+  - enabled: 1
+    path: Assets/Scenes/Memory 1/mem1_4.unity
+    guid: d1f4659a32167e24b8ad6eb3657f25a1
+  - enabled: 1
+    path: Assets/Scenes/Memory 1/mem1_5.unity
+    guid: 7768c2d4138fdb146bdb28b570eeb575
+  - enabled: 1
+    path: Assets/Scenes/Memory 1/mem1_6.unity
+    guid: 26d5480620f911c4da255bc1d0fa350f
+  - enabled: 1
+    path: Assets/Scenes/Memory 1/mem1_1.unity
+    guid: ccdd628f91760ba4fb23b3cbf1edd906
+  - enabled: 1
+    path: Assets/Scenes/Memory 1/mem1_7.unity
+    guid: 26edf6b7f2f350a4dbaaf6ca900038a9
+  - enabled: 1
+    path: Assets/Scenes/Memory 1/mem1_9.unity
+    guid: 6d303c2cbd66116408570b3a107059a0
+  - enabled: 1
+    path: Assets/Scenes/Memory 1/mem1_8.unity
+    guid: 8cc43a601750c8e448d6ad9502be2d68
   m_configObjects: {}
