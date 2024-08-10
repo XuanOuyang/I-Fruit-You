@@ -1,9 +1,17 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class HighlightOnMouseOver : MonoBehaviour
 {
-    private Color originalColor;
-    public Color highlightColor = Color.yellow;
+    //private Color originalColor;
+    //public Color highlightColor = Color.yellow;
+    public Sprite hoverSprite;
+    private Sprite originalSprite;
+    public GameObject button;
+    public string nextScene;
     private SpriteRenderer spriteRenderer;
     private bool isHighlighted = false;
 
@@ -12,7 +20,11 @@ public class HighlightOnMouseOver : MonoBehaviour
         // Get the SpriteRenderer component of the game object
         spriteRenderer = GetComponent<SpriteRenderer>();
         // Save the original color of the game object
-        originalColor = spriteRenderer.color;
+        //originalColor = spriteRenderer.color;
+        originalSprite = spriteRenderer.sprite;
+
+        Button btn = button.GetComponent<Button>();
+        btn.onClick.AddListener(NextScene);
     }
 
     void Update()
@@ -30,7 +42,8 @@ public class HighlightOnMouseOver : MonoBehaviour
                 if (!isHighlighted)
                 {
                     // Change the color of the game object to the highlight color
-                    spriteRenderer.color = highlightColor;
+                    //spriteRenderer.color = highlightColor;
+                    spriteRenderer.sprite = hoverSprite;
                     isHighlighted = true;
                 }
             }
@@ -39,7 +52,8 @@ public class HighlightOnMouseOver : MonoBehaviour
                 if (isHighlighted)
                 {
                     // Revert the color of the game object to the original color
-                    spriteRenderer.color = originalColor;
+                    //spriteRenderer.color = originalColor;
+                    spriteRenderer.sprite = originalSprite;
                     isHighlighted = false;
                 }
             }
@@ -49,9 +63,15 @@ public class HighlightOnMouseOver : MonoBehaviour
             if (isHighlighted)
             {
                 // Revert the color of the game object to the original color
-                spriteRenderer.color = originalColor;
+                spriteRenderer.sprite = originalSprite;
+                //spriteRenderer.color = originalColor;
                 isHighlighted = false;
             }
         }
+    }
+
+    void NextScene()
+    {
+        SceneManager.LoadScene(nextScene);
     }
 }

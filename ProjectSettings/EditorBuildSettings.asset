@@ -74,4 +74,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Memory 1/TestingPuzzle/mem1_testpuzzle2.unity
     guid: 83fba5935febdd8428570e6376f419d9
+  - enabled: 1
+    path: Assets/Scenes/Fruit Plate/fruit_select.unity
+    guid: 15557c7349479e44aa5731500a6d039b
   m_configObjects: {}
