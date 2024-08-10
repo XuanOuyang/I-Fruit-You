@@ -71,4 +71,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Memory 1/ScenesICanMake/mem1_mid9_flight.unity
     guid: 28e9354cdd82c93429246c55b445b621
+  - enabled: 1
+    path: Assets/Scenes/Memory 1/TestingPuzzle/mem1_testpuzzle2.unity
+    guid: 83fba5935febdd8428570e6376f419d9
   m_configObjects: {}
