@@ -498,7 +498,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8033484267903868596, guid: b82ed2776d224df4585b753bb4f74673, type: 3}
       propertyPath: nextScene
-      value: 
+      value: mem1_10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4760385958151162866, guid: b82ed2776d224df4585b753bb4f74673, type: 3}
@@ -852,7 +852,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8033484267903868596, guid: b82ed2776d224df4585b753bb4f74673, type: 3}
       propertyPath: nextScene
-      value: 
+      value: mem1_10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4760385958151162866, guid: b82ed2776d224df4585b753bb4f74673, type: 3}
