@@ -180,7 +180,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 505d9f46376d3ad4fb96c0189a9765e1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ceb0f4d551e540548bc5eee6e3f39b51, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -603,11 +603,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprites:
-  - {fileID: 21300000, guid: 505d9f46376d3ad4fb96c0189a9765e1, type: 3}
-  - {fileID: 21300000, guid: 841f1247fe857a9439687addcaa63f99, type: 3}
-  - {fileID: 21300000, guid: 77bc582ff0960a348ada56f41f355197, type: 3}
-  - {fileID: 21300000, guid: 99abcc90a64bdb64d8e498d49e8b64ba, type: 3}
-  - {fileID: 21300000, guid: 6f6119de9eb345d4bbfdfac64aff9dd3, type: 3}
+  - {fileID: 21300000, guid: ceb0f4d551e540548bc5eee6e3f39b51, type: 3}
+  - {fileID: 21300000, guid: 75e87d9f74b8327428b760c3ab0d18ca, type: 3}
+  - {fileID: 21300000, guid: ac7445eca76fb5645ba05fa2284da2a5, type: 3}
+  - {fileID: 21300000, guid: 42c1fdb902fcb904ea5f4bb35605eb21, type: 3}
   myButton: {fileID: 1182394556}
   nextScene: fruit_select
   obj: {fileID: 290676242}
