@@ -9,7 +9,7 @@ public class MultiPanelSlideTransition : MonoBehaviour
     public List<GameObject> panels;
     public string nextScene;
     public bool immediateTransition;
-    //public GameObject nextButton;
+    public GameObject nextButton;
     public float transitionDuration = 1.0f;
     private bool isTransitioning = false;
     private int currentPanelIndex = 0;
@@ -22,8 +22,7 @@ public class MultiPanelSlideTransition : MonoBehaviour
             panels[i].transform.position = new Vector2(20, 0);
         }
 
-        //Button nextSlideButton = nextButton.GetComponent<Button>();
-
+        Button nextSlideButton = nextButton.GetComponent<Button>();
     }
 
     void Update()
@@ -73,6 +72,8 @@ public class MultiPanelSlideTransition : MonoBehaviour
     IEnumerator Slide(int fromPanelIndex, int toPanelIndex)
     {
         isTransitioning = true;
+        nextButton.SetActive(false);
+
         float elapsedTime = 0f;
 
         Vector2 fromPanelStartPos = panels[fromPanelIndex].transform.position;
@@ -95,5 +96,6 @@ public class MultiPanelSlideTransition : MonoBehaviour
 
         currentPanelIndex = toPanelIndex;
         isTransitioning = false;
+        nextButton.SetActive(true);
     }
 }
