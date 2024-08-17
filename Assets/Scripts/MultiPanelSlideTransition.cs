@@ -9,6 +9,7 @@ public class MultiPanelSlideTransition : MonoBehaviour
     public List<GameObject> panels;
     public string nextScene;
     public bool immediateTransition;
+    //public GameObject nextButton;
     public float transitionDuration = 1.0f;
     private bool isTransitioning = false;
     private int currentPanelIndex = 0;
@@ -20,12 +21,15 @@ public class MultiPanelSlideTransition : MonoBehaviour
         {
             panels[i].transform.position = new Vector2(20, 0);
         }
+
+        //Button nextSlideButton = nextButton.GetComponent<Button>();
+
     }
 
     void Update()
     {
         // Trigger the transition with the a click
-        if (Input.GetMouseButtonDown(0) && !isTransitioning && currentPanelIndex < panels.Count - 1)
+        /*if (Input.GetMouseButtonDown(0) && !isTransitioning && currentPanelIndex < panels.Count - 1)
         {
             int nextPanelIndex = currentPanelIndex + 1;
             StartCoroutine(Slide(currentPanelIndex, nextPanelIndex));
@@ -38,6 +42,28 @@ public class MultiPanelSlideTransition : MonoBehaviour
             {
                 SceneManager.LoadScene(nextScene);
             } else if (immediateTransition == true)
+            {
+                SceneManager.LoadScene(nextScene);
+            }
+        }*/
+    }
+
+    public void NextSlide()
+    {
+        if (!isTransitioning && currentPanelIndex < panels.Count - 1)
+        {
+            int nextPanelIndex = currentPanelIndex + 1;
+            StartCoroutine(Slide(currentPanelIndex, nextPanelIndex));
+        }
+
+        // Go to the next scene at the end of slideshow
+        if (currentPanelIndex == panels.Count - 1)
+        {
+            if (immediateTransition == false && Input.GetMouseButtonDown(0))
+            {
+                SceneManager.LoadScene(nextScene);
+            }
+            else if (immediateTransition == true)
             {
                 SceneManager.LoadScene(nextScene);
             }
