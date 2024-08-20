@@ -917,7 +917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbd73beae75cdfb4fa0585b68eece1b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: fruit_select
+  nextScene: fruit_select_after_1
   difficulty: 4
   gameHolder: {fileID: 1963844233}
   piecePrefab: {fileID: 1533067753533454472, guid: f02fa4140409c124788ebdcae13272a2, type: 3}

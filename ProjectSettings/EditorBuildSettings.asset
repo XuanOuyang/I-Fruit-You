@@ -134,4 +134,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Memory 1/ScenesICanMake/mem1_mid10.unity
     guid: 462adae53e408094f92c0156df4983df
+  - enabled: 1
+    path: Assets/Scenes/Fruit Plate/fruit_select_after_1.unity
+    guid: c61eac0369a9c5b4eb920f2dfb4021ee
   m_configObjects: {}

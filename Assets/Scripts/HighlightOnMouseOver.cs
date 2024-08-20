@@ -10,8 +10,14 @@ public class HighlightOnMouseOver : MonoBehaviour
     //public Color highlightColor = Color.yellow;
     public Sprite hoverSprite;
     private Sprite originalSprite;
+
     public GameObject button;
+    public GameObject tbdButton;
+
     public string nextScene;
+    public bool inProgress = true;
+    private bool inProgressButtonShow = false;
+
     private SpriteRenderer spriteRenderer;
     private bool isHighlighted = false;
 
@@ -24,7 +30,14 @@ public class HighlightOnMouseOver : MonoBehaviour
         originalSprite = spriteRenderer.sprite;
 
         Button btn = button.GetComponent<Button>();
-        btn.onClick.AddListener(NextScene);
+        Button inProgressButton = tbdButton.GetComponent<Button>();
+        if (!inProgress)
+        {
+            btn.onClick.AddListener(NextScene);
+        } else
+        {
+            btn.onClick.AddListener(showInProgress);
+        }
     }
 
     void Update()
@@ -73,5 +86,18 @@ public class HighlightOnMouseOver : MonoBehaviour
     void NextScene()
     {
         SceneManager.LoadScene(nextScene);
+    }
+
+    public void showInProgress()
+    {
+        if (inProgressButtonShow == true)
+        {
+            tbdButton.SetActive(false);
+            inProgressButtonShow = false;
+        } else if (inProgressButtonShow == false)
+        {
+            tbdButton.SetActive(true);
+            inProgressButtonShow = true;
+        }
     }
 }
