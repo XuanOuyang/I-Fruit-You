@@ -22,51 +22,39 @@ public class MultiPanelSlideTransition : MonoBehaviour
             panels[i].transform.position = new Vector2(20, 0);
         }
 
-        Button nextSlideButton = nextButton.GetComponent<Button>();
     }
 
     void Update()
     {
-        // Trigger the transition with the a click
-        /*if (Input.GetMouseButtonDown(0) && !isTransitioning && currentPanelIndex < panels.Count - 1)
-        {
-            int nextPanelIndex = currentPanelIndex + 1;
-            StartCoroutine(Slide(currentPanelIndex, nextPanelIndex));
-        }
+        Button nextSlideButton = nextButton.GetComponent<Button>();
 
-        // Go to the next scene at the end of slideshow
-        if (currentPanelIndex == panels.Count-1)
-        {
-            if (immediateTransition == false && Input.GetMouseButtonDown(0))
-            {
-                SceneManager.LoadScene(nextScene);
-            } else if (immediateTransition == true)
-            {
-                SceneManager.LoadScene(nextScene);
-            }
-        }*/
-    }
-
-    public void NextSlide()
-    {
-        if (!isTransitioning && currentPanelIndex < panels.Count - 1)
-        {
-            int nextPanelIndex = currentPanelIndex + 1;
-            StartCoroutine(Slide(currentPanelIndex, nextPanelIndex));
-        }
-
-        // Go to the next scene at the end of slideshow
+        // If it's at the last panel, will determine whether to immediately transition to the next
+        // scene or wait for the button to be clicked
         if (currentPanelIndex == panels.Count - 1)
         {
-            if (immediateTransition == false && Input.GetMouseButtonDown(0))
+            if (immediateTransition == false)
             {
-                SceneManager.LoadScene(nextScene);
+                nextSlideButton.onClick.AddListener(OnClick);
             }
             else if (immediateTransition == true)
             {
                 SceneManager.LoadScene(nextScene);
             }
         }
+    }
+
+    public void NextSlide()
+    {      
+        if (isTransitioning == false && currentPanelIndex < panels.Count - 1)
+        {
+            int nextPanelIndex = currentPanelIndex + 1;
+            StartCoroutine(Slide(currentPanelIndex, nextPanelIndex));
+        }
+    }
+
+    private void OnClick()
+    {
+        SceneManager.LoadScene(nextScene);
     }
 
     IEnumerator Slide(int fromPanelIndex, int toPanelIndex)
@@ -96,6 +84,10 @@ public class MultiPanelSlideTransition : MonoBehaviour
 
         currentPanelIndex = toPanelIndex;
         isTransitioning = false;
-        nextButton.SetActive(true);
+
+        if (currentPanelIndex < panels.Count - 1 || immediateTransition == false)
+        {
+            nextButton.SetActive(true);
+        }
     }
 }
