@@ -234,7 +234,7 @@ MonoBehaviour:
   nextScene: test_intro_4
   immediateTransition: 1
   nextButton: {fileID: 2023769760}
-  transitionDuration: 1.5
+  transitionDuration: 1.6
 --- !u!114 &216455644
 MonoBehaviour:
   m_ObjectHideFlags: 0

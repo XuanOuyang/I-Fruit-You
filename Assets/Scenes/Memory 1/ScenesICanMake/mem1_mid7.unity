@@ -234,7 +234,7 @@ MonoBehaviour:
   nextScene: mem1_mid8
   immediateTransition: 1
   nextButton: {fileID: 1777671990}
-  transitionDuration: 1.5
+  transitionDuration: 1.67
 --- !u!114 &241214617
 MonoBehaviour:
   m_ObjectHideFlags: 0
