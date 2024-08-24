@@ -360,7 +360,7 @@ MonoBehaviour:
   hoverSprite: {fileID: 21300000, guid: af24f89c7932d6b45a4a290daa3ec221, type: 3}
   button: {fileID: 376933426}
   tbdButton: {fileID: 1374964886}
-  nextScene: mem1_1
+  nextScene: test_eatingscene
   inProgress: 0
 --- !u!61 &465222272
 BoxCollider2D:
