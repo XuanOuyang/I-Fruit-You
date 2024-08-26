@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/alpha_1.unity
     guid: 73eaababad0fbe74dafecedf1c94d98c
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 1df8e1f8b6436e74e845c9f7cb1bc0bc
+  - enabled: 1
+    path: Assets/Scenes/Eating Scene/test_eatingscene.unity
+    guid: 1b42aae6cdd3f824cb14f8209c5f7b85
   - enabled: 0
     path: Assets/Scenes/alpha_2.unity
     guid: 691b7c08dba650d4986545778eb4bff3
@@ -15,8 +21,8 @@ EditorBuildSettings:
     path: Assets/Scenes/alpha_3.unity
     guid: e3f991d240af58c449ae384872a6e7ed
   - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
-    guid: 1df8e1f8b6436e74e845c9f7cb1bc0bc
+    path: Assets/Scenes/Intro/test_intro_1.unity
+    guid: 459d12450af7b234bb41427f2cfcec9f
   - enabled: 1
     path: Assets/Settings/Scenes/URP2DSceneTemplate.unity
     guid: 2cda990e2423bbf4892e6590ba056729
@@ -26,7 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Intro/test_intro_1x.unity
     guid: 761c7150502679b41940703a1b7f9e71
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Intro/zzzzohiorizz.unity
     guid: 3009345156c57d04abf84ed55dd34302
   - enabled: 1
