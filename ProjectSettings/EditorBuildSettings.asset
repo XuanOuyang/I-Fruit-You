@@ -26,13 +26,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Intro/test_intro_1x.unity
     guid: 761c7150502679b41940703a1b7f9e71
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Intro/zzzzohiorizz.unity
     guid: 3009345156c57d04abf84ed55dd34302
   - enabled: 1
     path: Assets/Scenes/Intro/test_intro_4.unity
     guid: a67a0553d0f6e6c46ac45e7502589863
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Intro/test_intro_4.unity
     guid: a67a0553d0f6e6c46ac45e7502589863
   - enabled: 1
@@ -137,4 +137,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fruit Plate/fruit_select_after_1.unity
     guid: c61eac0369a9c5b4eb920f2dfb4021ee
+  - enabled: 1
+    path: Assets/Scenes/Conclusion/concl_apl.unity
+    guid: 083746d40c557264087b75e24353e8b9
+  - enabled: 1
+    path: Assets/Scenes/Conclusion/concl_washdishes.unity
+    guid: 46d456b4a192d964299477d3eb1c22b3
   m_configObjects: {}

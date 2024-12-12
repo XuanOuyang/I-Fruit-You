@@ -4,11 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-AudioManager audioManager;
+/*AudioManager audioManager;
 private void Awake()
 {
     audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
-}
+}*/
 
 public class GameManager : MonoBehaviour
 {
