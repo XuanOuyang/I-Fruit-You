@@ -604,9 +604,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprites:
   - {fileID: 21300000, guid: ceb0f4d551e540548bc5eee6e3f39b51, type: 3}
-  - {fileID: 21300000, guid: 75e87d9f74b8327428b760c3ab0d18ca, type: 3}
-  - {fileID: 21300000, guid: ac7445eca76fb5645ba05fa2284da2a5, type: 3}
-  - {fileID: 21300000, guid: ffda6083830d9504c8374614d158e470, type: 3}
+  - {fileID: 21300000, guid: f15d23a0016094a47b6278f4336ef54d, type: 3}
+  - {fileID: 21300000, guid: a89a16a39666ce94daea0c4f058bb9f2, type: 3}
+  - {fileID: 21300000, guid: a15b366d289194341bd53ee3a31dfcf8, type: 3}
   myButton: {fileID: 1182394556}
   nextScene: fruit_select
   obj: {fileID: 290676242}
