@@ -138,9 +138,24 @@ EditorBuildSettings:
     path: Assets/Scenes/Fruit Plate/fruit_select_after_1.unity
     guid: c61eac0369a9c5b4eb920f2dfb4021ee
   - enabled: 1
-    path: Assets/Scenes/Conclusion/concl_apl.unity
+    path: Assets/Scenes/Conclusion/concl_sc4.unity
     guid: 083746d40c557264087b75e24353e8b9
+  - enabled: 0
+    path: Assets/Scenes/Conclusion/concl_sc3.unity
+    guid: b0fa57b2821b8d7499bc046f74e727db
   - enabled: 1
-    path: Assets/Scenes/Conclusion/concl_washdishes.unity
-    guid: 46d456b4a192d964299477d3eb1c22b3
+    path: Assets/Scenes/Conclusion/concl_sc1.unity
+    guid: ff6aed136713eae4ba0f4661355db8b2
+  - enabled: 1
+    path: Assets/Scenes/Conclusion/concl_sc2.unity
+    guid: 707f78d049c194540834caf73f388907
+  - enabled: 1
+    path: Assets/Scenes/Conclusion/concl_sc6.unity
+    guid: 974a4811b208a81428d49c9b88ff3a77
+  - enabled: 0
+    path: Assets/Scenes/Conclusion/concl_sc3.unity
+    guid: b0fa57b2821b8d7499bc046f74e727db
+  - enabled: 1
+    path: Assets/Scenes/Conclusion/concl_sc5.unity
+    guid: b887760794b3af740a10fcfe97c4e24c
   m_configObjects: {}

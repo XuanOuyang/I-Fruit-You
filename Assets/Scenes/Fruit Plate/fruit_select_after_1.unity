@@ -1411,7 +1411,7 @@ MonoBehaviour:
   hoverSprite: {fileID: 21300000, guid: 1c73d0793ae5bfc44ba09b2e9f12fd9a, type: 3}
   button: {fileID: 644710240}
   tbdButton: {fileID: 1374964886}
-  nextScene: concl_washdishes
+  nextScene: concl_sc1
   inProgress: 0
 --- !u!114 &1619386951
 MonoBehaviour:
